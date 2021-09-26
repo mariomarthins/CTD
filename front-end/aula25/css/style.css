@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(214, 211, 210);
+    height: 100px;
+    scroll-behavior: smooth;
+    width: 100vw;
+}
+main{
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#banner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 10, 173);
+    background-image: url(../img/quimada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornsilk;
+    width: 100vw;
+    height: Calc(100vh - 21px);
+    align-items: center;
+
+}
+
+#h1f{
+    font-size: 8rem;         
+    background-color: rgba(250, 247, 89, 0.5);
+/*     margin: 45px auto; */
+    
+}
+
+#banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 10, 173);
+    background-image: url(../img/queimadas-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornsilk;
+    width: 100vw;
+    height: Calc(100vh - 20px);
+    align-items: center;
+}
+#banner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 10, 173);
+    background-image: url(../img/mudas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornsilk;
+    width: 100vw;
+    height: Calc(100vh - 20px);
+    align-items: center;
+}
+#banner4{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+ /*    background-image: url(../img/plantando.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornsilk;
+    width: 100vw;
+    height: Calc(100vh - 20px);
+    align-items: center;
+}
+
+#banner4 h2{
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2.4rem;
+    background-color: rgba(71, 71, 65, 0.5);
+}
+
+/* .figure{
+    width: 300px;
+    height: 300px !important;
+
+} */
+
+#banner5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 10, 173);
+    background-image: url(../img/floresta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: cornsilk;
+    width: 100vw;
+    height: Calc(100vh - 20px);
+    align-items: center;
+}
+
+img{
+    background-color: rgba(46, 161, 46, 0.856);
+    height: 21.875rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+
+/*     border: oldlace .070rem solid; */
+}
+
+footer{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
