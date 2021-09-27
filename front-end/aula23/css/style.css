@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    padding: 2rem 10%;
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content:space-between;
+    display: flex;
+    font-size: 1.3rem;
+    gap: 2rem;
+    color: wheat;
+    padding-top: 1rem;
+  }
+  
+  ul li a {
+    display: flex;
+    justify-content:space-between;
+    color: wheat;
+    font-weight: bold;
+  }
+  
+  .botao {
+    width: 7.5rem;
+    height: 2.5rem;
+    background: tomato;
+    color: wheat;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.6rem;
+    border-radius: 2.5rem;
+  }
+  
+  .parque img {
+    width: 100vw;
+  }
+  
+  .classDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    scroll-behavior: smooth;
+  }
+  
+  #sessao3 {
+    margin: 1rem;
+  }
+  
+  p {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: dimgray;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
